@@ -1,0 +1,96 @@
+/*      Problema A     */
+
+body{
+    color:#333;
+    font-family: sans-serif;
+    background:#000;
+}
+
+input{
+    display:block;
+    padding:6px;
+    width:100%;
+    margin: 12px auto;
+    box-sizing: border-box;
+    border:none;
+    border-top:2px solid #48e;
+    background:transparent;
+    outline: none !important;
+    transition:background 0.3s;
+    color:#fff;
+
+}
+
+input:hover{
+    background:#26a;
+}
+
+input::placeholder{
+    color:#79f;
+    transition:color 0.3s;
+
+}
+
+input:hover::placeholder{
+    color:#fff;
+}
+
+input[type="submit"]{
+    width:50%;
+    margin-top:18px;
+    padding:12px;
+    background:#26a; 
+    color:#fff;
+}
+
+
+input[type="submit"]:hover{
+    background: #048;
+}
+
+form{
+    width:86%;
+    margin:auto;
+    background: #013;
+    padding:30px;
+}
+
+h2{
+    margin-bottom:36px;
+}
+
+
+.contenedor-1{
+    background:rgb(197, 35, 35);
+    padding:40px;
+}
+
+.contenedor-2{
+    background:rgb(24, 24, 141);
+    padding:20px;
+}
+
+.contenedor-3{
+    background: #2E4053;
+    padding:40px;
+}
+
+.input-prueba{
+    border:1px solid #000;
+    border-radius: 5px;
+    padding:6px;
+    color:#444;
+
+}
+
+a{
+    text-decoration:none;
+}
+a:hover{
+    text-decoration-line:underline;
+    text-decoration-style:double;
+} 
+
+.container{
+    height:100vh;
+}
